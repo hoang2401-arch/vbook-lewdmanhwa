@@ -8,10 +8,10 @@
       "name": "LewdManhwa (Beta)",
       "author": "Community prototype",
       "path": "https://raw.githubusercontent.com/hoang2401-arch/vbook-lewdmanhwa/main/lewdmanhwa/plugin.zip",
-      "version": 3,
+      "version": 5,
       "source": "https://lewdmanhwa.com",
       "icon": "https://raw.githubusercontent.com/hoang2401-arch/vbook-lewdmanhwa/main/lewdmanhwa/icon.png",
-      "description": "Extension thử nghiệm v3: sửa DOM parent/nextElementSibling, chưa kiểm chứng trong vBook",
+      "description": "Extension thử nghiệm v5: sửa tên chương, bỏ số trang và ngày đăng",
       "type": "comic",
       "locale": "en_US",
       "tag": "nsfw"
