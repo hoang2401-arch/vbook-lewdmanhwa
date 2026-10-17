@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "author": "Community prototype",
-    "description": "Kho thử nghiệm extension LewdManhwa"
+    "author": "hoang2401-arch",
+    "description": "Kho extension VBook cá nhân: LewdManhwa và Góc Truyện Tranh Vui 30"
   },
   "data": [
     {
@@ -15,6 +15,17 @@
       "type": "comic",
       "locale": "en_US",
       "tag": "nsfw"
+    },
+    {
+      "name": "Góc Truyện Tranh Vui 30 (Beta)",
+      "author": "hoang2401-arch",
+      "path": "https://raw.githubusercontent.com/hoang2401-arch/vbook-lewdmanhwa/main/goctruyentranhvui30/plugin.zip",
+      "version": 1,
+      "source": "https://goctruyentranhvui30.com",
+      "icon": "https://raw.githubusercontent.com/hoang2401-arch/vbook-lewdmanhwa/main/goctruyentranhvui30/icon.png",
+      "description": "Beta v1: Danh sách, chi tiết, mục lục và reader lazy-load",
+      "type": "comic",
+      "locale": "vi_VN"
     }
   ]
 }
