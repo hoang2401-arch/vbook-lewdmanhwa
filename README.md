@@ -1,7 +1,8 @@
-# Cập nhật v10
+# Cập nhật v11 (sửa đọc thiếu trang)
 
-1. Thay `plugin.json` ở root repository.
-2. Thay `lewdmanhwa/plugin.zip` trên GitHub.
-3. Commit, làm mới và cập nhật extension trong vBook.
+1. Thay file `plugin.json` ở root repository bằng bản này.
+2. Thay `lewdmanhwa/plugin.zip` bằng bản này.
+3. Commit và cập nhật extension trên vBook.
 
-**Cần thử trên app:** Giao diện web có thể tải mục lục bất đồng bộ. Nếu chưa đầy đủ, lấy log `LewdManhwa TOC v10: FINAL=...` từ vBook Rule Tester để chẩn đoán.
+Bản này giữ nguyên `toc.js` v10. Kiểm tra ở chương dài, ví dụ chương được nguồn ghi `168p`.
+Nếu chưa đủ trang, xem log `LewdManhwa chap v11: FINAL=...`.
