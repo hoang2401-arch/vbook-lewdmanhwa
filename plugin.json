@@ -8,10 +8,10 @@
       "name": "LewdManhwa (Beta)",
       "author": "Community prototype",
       "path": "https://raw.githubusercontent.com/hoang2401-arch/vbook-lewdmanhwa/main/lewdmanhwa/plugin.zip",
-      "version": 9,
+      "version": 10,
       "source": "https://lewdmanhwa.com",
       "icon": "https://raw.githubusercontent.com/hoang2401-arch/vbook-lewdmanhwa/main/lewdmanhwa/icon.png",
-      "description": "v9: finish loading chapter list; keep working v8 chapter reader",
+      "description": "v10: try oldest-first to load hidden chapters; keep v8 reader",
       "type": "comic",
       "locale": "en_US",
       "tag": "nsfw"
