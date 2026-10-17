@@ -1,11 +1,12 @@
-# Kho cài LewdManhwa cho vBook (beta)
+# v8 – Chapter reader diagnostic fix
 
-## Đưa lên GitHub
+Changes:
+- `chap.js` returns an **array of page image URLs** from `Response.success(pages)` instead of a string containing HTML image elements.
+- Only starts headless browser when HTTP extraction returned no images.
+- Logs `HTTP images=...` and `final images=... first=...` for debugging.
 
-1. Tạo repository **public** với đúng tên `vbook-lewdmanhwa` và chọn branch `main`.
-2. Giải nén ZIP hướng dẫn; upload **toàn bộ nội dung bên trong** (không upload file ZIP cha) vào gốc repository qua `Add file > Upload files`.
-3. Mở `plugin.json` tại gốc repository; thay `hoang2401-arch` thành tên người dùng GitHub của bạn ở **cả hai chỗ** và commit. Nếu thay đổi tên repo / branch thì chỉnh URL tương ứng.
-4. Xác minh mở được `https://raw.githubusercontent.com/hoang2401-arch/vbook-lewdmanhwa/main/plugin.json` và `https://raw.githubusercontent.com/hoang2401-arch/vbook-lewdmanhwa/main/lewdmanhwa/plugin.zip`.
-5. Trong ứng dụng vBook, vào **Cài đặt > Kho tiện ích > Thêm kho** (các phiên bản khác có thể là Cá nhân > Phần mở rộng > dấu ba chấm > Quản lý extensions). Dán URL plugin.json của bước 4, làm mới, chọn LewdManhwa (Beta) và cài đặt.
+**This build has been syntax-tested and mock-tested, not verified running on a device or on all live chapters.**
 
-**Chú ý**: URL `sandbox:/...` của ChatGPT không phải URL công khai để VBook tải. File trong repository là bản thử nghiệm chưa kiểm chứng hoạt động trong vBook. Nếu app có lựa chọn nhập file ZIP trực tiếp, có thể thử dùng `lewdmanhwa/plugin.zip` mà không cần tạo kho.
+To update GitHub: Replace root `plugin.json` and `lewdmanhwa/plugin.zip`. Refresh extension listing, upgrade to 8 and re-open a chapter.
+
+If it still fails, please share the **exact vBook log for `LewdManhwa chap v8`**, including an error message, so we can tell extraction failure from image hotlink failure.
