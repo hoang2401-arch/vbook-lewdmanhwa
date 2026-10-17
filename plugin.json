@@ -8,10 +8,10 @@
       "name": "LewdManhwa (Beta)",
       "author": "Community prototype",
       "path": "https://raw.githubusercontent.com/hoang2401-arch/vbook-lewdmanhwa/main/lewdmanhwa/plugin.zip",
-      "version": 11,
+      "version": 12,
       "source": "https://lewdmanhwa.com",
       "icon": "https://raw.githubusercontent.com/hoang2401-arch/vbook-lewdmanhwa/main/lewdmanhwa/icon.png",
-      "description": "v11: fix incomplete comic chapters and early next-chapter transitions",
+      "description": "v12: check further numbered image pages, prevent 5/5 premature end",
       "type": "comic",
       "locale": "en_US",
       "tag": "nsfw"

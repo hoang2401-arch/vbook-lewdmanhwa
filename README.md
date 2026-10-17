@@ -1,8 +1,8 @@
-# Cập nhật v11 (sửa đọc thiếu trang)
+# Cập nhật v12
 
-1. Thay file `plugin.json` ở root repository bằng bản này.
-2. Thay `lewdmanhwa/plugin.zip` bằng bản này.
-3. Commit và cập nhật extension trên vBook.
+1. Thay `plugin.json` ở root GitHub bằng file này.
+2. Thay `lewdmanhwa/plugin.zip` trong thư mục `lewdmanhwa` bằng file ZIP trong gói.
+3. Commit. Trong vBook hãy làm mới nguồn và cập nhật extension lên **v12**.
+4. Tải lại Rooftop Sex King Ch. 1; xóa dữ liệu chương cũ nếu vBook vẫn báo 5/5.
 
-Bản này giữ nguyên `toc.js` v10. Kiểm tra ở chương dài, ví dụ chương được nguồn ghi `168p`.
-Nếu chưa đủ trang, xem log `LewdManhwa chap v11: FINAL=...`.
+Nếu vẫn chưa đủ, chụp log bắt đầu `LewdManhwa chap v12` từ Rule Tester/Logcat. Đây là bản beta chưa kiểm thử trực tiếp trên vBook.
