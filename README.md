@@ -1,12 +1,12 @@
-# v8 – Chapter reader diagnostic fix
+# Update vBook LewdManhwa v9
 
-Changes:
-- `chap.js` returns an **array of page image URLs** from `Response.success(pages)` instead of a string containing HTML image elements.
-- Only starts headless browser when HTTP extraction returned no images.
-- Logs `HTTP images=...` and `final images=... first=...` for debugging.
+Replace **two** files in GitHub repository `hoang2401-arch/vbook-lewdmanhwa`:
 
-**This build has been syntax-tested and mock-tested, not verified running on a device or on all live chapters.**
+1. Root `plugin.json`
+2. `lewdmanhwa/plugin.zip`
 
-To update GitHub: Replace root `plugin.json` and `lewdmanhwa/plugin.zip`. Refresh extension listing, upgrade to 8 and re-open a chapter.
+Do not extract `plugin.zip`. Do not change `lewdmanhwa/icon.png`.
 
-If it still fails, please share the **exact vBook log for `LewdManhwa chap v8`**, including an error message, so we can tell extraction failure from image hotlink failure.
+Refresh repository and update the extension in vBook, then refresh the specific book's chapter listing.
+
+Expected for *From Pauper to Prince*: the source currently advertises 76 chapters; whether vBook extracts all 76 must be verified on-device. If incomplete, inspect Logcat `LewdManhwa TOC v9: FINAL=X/76` and progress logs.
